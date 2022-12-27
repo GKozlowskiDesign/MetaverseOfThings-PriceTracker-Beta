@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='wrapper-container w-full'>
             <div className='flex items-center gap-1 cursor-pointer mb-10'>
                 <LogoIcon />
-                <h1 className='font-semibold text-3xl'><span className='text-3xl text-indigo-600'>Crypto</span>Currency<span 
+                <h1 className='font-semibold text-3xl'><span className='text-3xl text-indigo-600'>Cr</span>ypto<span 
                 className='text-3xl text-indigo-600'>In</span>sights</h1>   
             </div>
         </div>
