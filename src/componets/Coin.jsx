@@ -1,5 +1,5 @@
 import { currencyFormat } from "./utils";
-import { TrendingDown, TrendingUp } from "../icons/icons";
+import { TrendingDown, TrendingUp } from "../Icons/Icons";
 import { Link } from "react-router-dom";
 
 
