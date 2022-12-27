@@ -1,7 +1,7 @@
 
 
 import { useParams } from "react-router-dom";
-import useAxios from "../hooks/useAxios"
+import useAxios from "../Hooks/useAxios"
 import {
   Chart as ChartJS,
   CategoryScale,
