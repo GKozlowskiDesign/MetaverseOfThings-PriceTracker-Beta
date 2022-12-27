@@ -1,6 +1,6 @@
 
 
-import useAxios from "../hooks/useAxios"
+import useAxios from "../Hooks/useAxios"
 import Coin from "../componets/Coin";
 import Skeleton from "./Skeleton";
 
