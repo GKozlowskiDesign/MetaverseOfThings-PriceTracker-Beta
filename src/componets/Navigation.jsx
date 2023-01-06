@@ -1,6 +1,6 @@
 import React from 'react'
 import 'flowbite';
-const Social = () => {
+const Navigation = () => {
 return (
 
 <nav class="bg-black border-gray-200 px-2 sm:px-4 py-2.5">
@@ -43,6 +43,6 @@ return (
 
 
 )};
-export default Social
+export default Navigation
             
    
