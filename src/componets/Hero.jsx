@@ -2,7 +2,7 @@ import React from 'react'
 const Hero = () => {
 return (
 <div>
-    <div name="about" className='w-full h-100 bg-black'>
+    <div name="about" className='w-full h-100 bg-gradient-to-r from-black via-gray-900 to-black'>
          <div class="w-full h-full  max-w-screen-lg p-20 mx-auto flex flex-col justify-center gap-2 ">
             <section className='py-16 flex items-center h-100 justify-center'>
                 <div className="mx-auto max-w-[27.5rem]">
