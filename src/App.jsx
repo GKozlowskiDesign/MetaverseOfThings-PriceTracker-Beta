@@ -13,7 +13,6 @@ function App() {
   return (
     <BrowserRouter>
     <Hero />
-    <Navbar />
     <Routes>
       <Route path="/" element={<CryptoHome />} />
       <Route path="/coin/:id" element={<CryptoDetail />} />
