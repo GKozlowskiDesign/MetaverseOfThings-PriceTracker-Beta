@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CryptoHome from './pages/CryptoHome';
 import CryptoDetail from './pages/CryptoDetail';
 import Navigation from './componets/Navigation';
+import Footer from './componets/Footer';
 import Hero from "./componets/Hero";
 import 'flowbite';
 
