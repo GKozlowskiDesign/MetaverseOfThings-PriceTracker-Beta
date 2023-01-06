@@ -19,6 +19,7 @@ function App() {
       <Route path="/" element={<CryptoHome />} />
       <Route path="/coin/:id" element={<CryptoDetail />} />
     </Routes>
+    <Footer/>
     </BrowserRouter>
   )
 }
