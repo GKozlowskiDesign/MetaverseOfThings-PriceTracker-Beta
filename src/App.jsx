@@ -11,6 +11,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Navigation />
     <Hero />
     <Routes>
       <Route path="/" element={<CryptoHome />} />
