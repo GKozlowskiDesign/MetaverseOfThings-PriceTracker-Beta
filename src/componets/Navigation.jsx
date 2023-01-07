@@ -40,7 +40,7 @@ return (
 		<ul>
 				<li class="hover:bg-indigo-600 hover:text-white mt-40 rounded-xl">
 				<a
-					href="/"
+					href="https://metaverseot.xyz/"
 					class="h-16 px-6 flex flex justify-center items-center w-full
 					focus:text-orange-500">
 					<svg xmlns="http://www.w3.org/2000/svg" 
@@ -60,7 +60,7 @@ return (
 
 			<li class="hover:bg-indigo-600 hover:text-white mt-6 rounded-xl">
 				<a
-					href="/foundation"
+					href="https://metaverseot.xyz/foundation"
 					class="h-16 px-6 flex flex justify-center items-center w-full
 					focus:text-orange-500">
 					<svg xmlns="http://www.w3.org/2000/svg" 
@@ -82,7 +82,7 @@ return (
 
 			<li class="hover:bg-indigo-600 hover:text-white mt-6 rounded-xl">
 				<a
-					href="/learning"
+					href="https://metaverseot.xyz/learning"
 					class="h-16 px-6 flex flex justify-center items-center w-full
 					focus:text-orange-500">
 					<svg xmlns="http://www.w3.org/2000/svg" 
