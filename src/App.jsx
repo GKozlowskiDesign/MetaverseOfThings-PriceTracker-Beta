@@ -3,7 +3,6 @@ import CryptoHome from './pages/CryptoHome';
 import CryptoDetail from './pages/CryptoDetail';
 import Navigation from './componets/Navigation';
 import Footer from './componets/Footer';
-import Hero from "./componets/Hero";
 import 'flowbite';
 
 
@@ -14,7 +13,6 @@ function App() {
   return (
     <BrowserRouter>
     <Navigation />
-    <Hero />
     <Routes>
       <Route path="/" element={<CryptoHome />} />
       <Route path="/coin/:id" element={<CryptoDetail />} />
