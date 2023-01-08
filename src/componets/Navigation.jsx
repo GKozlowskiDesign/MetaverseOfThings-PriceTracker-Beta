@@ -11,11 +11,11 @@ return (
 		class="flex flex-col items-center  bg-black text-gray-700  h-full pb-10">
 
 		<div class="h-16 flex items-center w-full">
-			<a class="w-full mx-auto" href="http://svelte.dev/">
+			<a class="w-full mx-auto" href="https://metaverseot.xyz/">
 				<img
 					class="w-10 mx-auto"
-					src="https://github.com/gkozlowskidesign/React-MVoT-Website/blob/codespace-gkozlowskidesign-opulent-chainsaw-59jvrpj6p56fp7w5/MVOT%20LOGO%20copy.png?raw=true"
-					alt="svelte logo" />
+					src="https://github.com/gkozlowskidesign/MetaverseOfThings---REACT-Website/blob/Branch_1-7-2023/MVOT%20LOGO%20copy.png?raw=true"
+					alt="MetaverseOfThings Logo" />
 			</a>
 		</div>
 
