@@ -110,19 +110,7 @@ return (
 	
 	<div class="items-center text-center mx-auto flex flex-col">
 
-		<section class="md:hidden flex items-center w-full mt-40">
-			<a class="mx-auto" href="https://metaverseot.xyz/">
-				<img
-					class="w-6/6 mx-auto pl-16"
-					src="https://raw.githubusercontent.com/gkozlowskidesign/MetaverseOfThings---REACT-Website/Branch_1-7-2023/MVOT%20LOGO%20copy.png"
-					alt="svelte logo" />
-			</a>
-		</section>
-		<section className='invisible lg:visible'>
-				<h1 className="mt-10 mb-2 text-[4rem] font-bold font-extrabold text-transparent text-3xl sm:text-7xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300">Metaverse <br></br>
-                <span className='bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300'>of Things</span></h1>
-                <h3 className="mb-2 text-[1rem] font-bold leading-8 text-white">Explore the Destination of Discovery!</h3> 
-		</section>
+		
                
 
         </div>
