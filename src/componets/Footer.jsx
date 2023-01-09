@@ -1,7 +1,7 @@
 import React from 'react'
 const Footer = () => {
 return (
-<div className='w-full px-10 h-100 bg-gradient-to-r from-black via-gray-900 to-black'> 
+<div className='w-full px-10 h-100 bg-gradient-to-b from-indigo-700 to-black'> 
  <section className='p-10 w-full container mx-auto flex flex-col justify-center gap-10'>
    <footer class="relative py-20 flex flex-col items-center overflow-hidden md:py-40">
     <div class="relative z-[1] container m-auto px-6 md:px-12">
