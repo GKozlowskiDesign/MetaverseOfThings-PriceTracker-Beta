@@ -7,22 +7,20 @@ const CoinDetail = () => {
   
   if(!response) {
     return (
-      <div className="wrapper-container bg-black">
+      <div className="wrapper-container">
         <Skeleton className="h-8 w-32 mb-4" />
         <Skeleton className="h-72 w-full mb-10" />
       </div>
     )
   }
+
   return (
-    <div className='bg-black mb-20'>
-      <div className='flex gap-2 items-center'>
-        <img src={response.image.small} alt={response.name} />
-        <h1 className='text-2xl capitalize font-bold text-white'>{response.name}</h1>
-      </div>   
-      <div class="p-5 font-light ring-2 ring-gray-900 rounded-xl dark:border-gray-700 dark:bg-gray-900">
-         <p className='mt-6 text-gray-500 [&>a]:text-blue-600 [&>a]:underline' dangerouslySetInnerHTML={{ __html: response.description.en }}></p> 
-      </div>   
-    </div>
+    <div className='pt-10 pb-10'>
+      <div className='p-6 bg-gray-900 flex gap-2 items-center ring-4 ring-gray-900 rounded-xl'>
+        <img className="rounded-xl" src={response.image.small} alt={response.name} />
+        <h1 className='text-3xl capitalize font-bold text-white'>{response.name}</h1>
+      </div>  
+</div>
   )
 }
 
