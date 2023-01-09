@@ -4,15 +4,15 @@ import CoinInfo from "../componets/CoinInfo"
 const CryptoDetail = () => {
   return (
     <div className="bg-gradient-to-b from-indigo-700 to-black w-full p-4"> 
-        <div className="wrapper-container mx-auto bg-black w-full">
+        <div className="wrapper-container mx-auto w-full">
         <CoinDetail />
         </div>
        
-        <div className="wrapper-container mx-auto bg-black w-full">
+        <div className="wrapper-container mx-auto w-full">
         <HistoryChart/>
         </div>
 
-        <div className="wrapper-container mx-auto bg-black w-full">
+        <div className="wrapper-container mx-auto w-full">
         <CoinInfo/>
         </div>
     </div>
