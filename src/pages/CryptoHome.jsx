@@ -3,7 +3,7 @@ import Trending from "../componets/Trending"
 
 const CryptoHome = () => {
     return (
-        <div className="bg-gradient-to-r from-black via-gray-900 to-black">
+        <div className="bg-gradient-to-b from-black via-purple-900 to-indigo-700">
         <div className="wrapper-container ">
             <Trending />
             <Markets />
