@@ -13,7 +13,6 @@ const CoinDetail = () => {
       </div>
     )
   }
-
   return (
     <div className='bg-black'>
       <div className='flex gap-2 items-center'>
