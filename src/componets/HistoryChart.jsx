@@ -1,7 +1,5 @@
-
-
 import { useParams } from "react-router-dom";
-import useAxios from "../Hooks/useAxios"
+import useAxios from "../hooks/useAxios"
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -35,32 +33,32 @@ const HistoryChart = () => {
   
   if(!response) {
     return (
-      <div className="wrapper-container mt-8">
-        <Skeleton className="h-72 w-full mb-10" />
+      <div className="wrapper-container mx-auto pb-10">
+        <Skeleton className="h-72 w-full" />
       </div>
     )
   }
   const coinChartData = response.prices.map(value => ({ x: value[0], y: value[1].toFixed(2) }));
   
-  const options = {
-    responsive: true
-  }
-  const data = {
-    labels: coinChartData.map(value => moment(value.x).format('MMM DD')),
-    datasets: [
+  const options = {responsive: true}
+
+  const data = {labels: coinChartData.map(value => moment(value.x).format('MMM DD')),
+  datasets: [
       {
         fill: true,
         label: id,
         data: coinChartData.map(val => val.y),
-        borderColor: 'rgb(53, 162, 235)',
-        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+        borderColor: 'rgb(201, 40, 192)',
+        backgroundColor: 'transparent',
       }
     ]
   }
 
   return (
-    <div>
-      <Line options={options} data={data} />
+    <div className="pb-10 mx-auto">
+      <div className="bg-gray-900 rounded-xl mx-auto">
+        <Line className="mx-auto p-6 rounded-xl w-full" options={options} data={data} />
+      </div>
     </div>
   )
 }
