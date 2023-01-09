@@ -18,7 +18,7 @@ const CoinInfo = () => {
   }
 
   return (
-    <div className='bg-gradient-to-b from-indigo-700 to-black pb-20'>
+    <div className='pb-20'>
   
 <div id="accordion-collapse" data-accordion="collapse" className='p-8 ring-gray-900 bg-gray-900 ring-4 rounded-xl'>
 <h1 className='text-white text-xl justify-center rounded p-2 text-left'>Description</h1>
