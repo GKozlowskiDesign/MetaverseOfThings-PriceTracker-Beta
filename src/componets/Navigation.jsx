@@ -2,58 +2,54 @@ import React from 'react'
 import 'flowbite';
 const Navigation = () => {
 return (
-
-<div class="h-screen w-full flex  bg-black items-center  jusitfy-center mx-auto">
-
-    
-
-	<aside
-		class="flex flex-col items-center  bg-black text-gray-700  h-full pb-10">
-
+<div class="w-full flex  bg-black items-center  jusitfy-center mx-auto">
+	<aside class="flex flex-col items-center  bg-black text-gray-700">
+	
+{/* Navigation Top Icon */}
 		<div class="h-16 flex items-center w-full">
 			<a class="w-full mx-auto" href="https://metaverseot.xyz/">
-				<img
-					class="w-10 mx-auto"
-					src="https://github.com/gkozlowskidesign/MetaverseOfThings---REACT-Website/blob/Branch_1-7-2023/MVOT%20LOGO%20copy.png?raw=true"
-					alt="MetaverseOfThings Logo" />
+			<img
+			class="w-10 mx-auto"
+			src="https://github.com/gkozlowskidesign/MetaverseOfThings---REACT-Website/blob/Branch_1-7-2023/MVOT%20LOGO%20copy.png?raw=true"
+			alt="MetaverseOfThings Logo" />
 			</a>
 		</div>
-
-		<ul>
-{/* xyz Navigation Icon */}
-				<li class="hover:bg-indigo-600 hover:text-white mt-40 rounded-xl">
-				<a
+{/* Navigation */}
+		<ul className="pl-4">
+			
+{/* Home Navigation Icon */}
+			<li class="ring-2 ring-black hover:ring-white hover:text-white mt-20 rounded-xl">
+					<a
 					href="https://metaverseot.xyz/"
 					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
+					focus:text-white">
 					<svg xmlns="http://www.w3.org/2000/svg" 
 					fill="none" viewBox="0 0 24 24" 
 					stroke-width="1.5" 
 					stroke="currentColor" 
 					class="w-6 h-6">
-  					<path stroke-linecap="round" 
+					<path stroke-linecap="round" 
 					stroke-linejoin="round" 
 					d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 
 					12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 
 					1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 
 					0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
 					</svg>
-				</a>
+					</a>
 			</li>
-{/* xyz Navigation Icon */}
-
-			<li class="hover:bg-indigo-600 hover:text-white mt-6 rounded-xl">
-				<a
+{/* Dashboard Navigation Icon */}
+			<li class="ring-2 ring-black hover:ring-white hover:text-white mt-4 rounded-xl">
+					<a
 					href="https://metaverseot.xyz/foundation"
 					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
+					focus:text-white">
 					<svg xmlns="http://www.w3.org/2000/svg" 
-					fill="none" 
+					fill="none"
 					viewBox="0 0 24 24" 
 					stroke-width="1.5" 
 					stroke="currentColor" 
 					class="w-6 h-6">
-  					<path stroke-linecap="round" 
+					<path stroke-linecap="round" 
 					stroke-linejoin="round" 
 					d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 
 					2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 
@@ -61,14 +57,14 @@ return (
 					2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 
 					2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
 					</svg>
-				</a>
+					</a>
 			</li>
-{/* xyz Navigation Icon */}
-			<li class="hover:bg-indigo-600 hover:text-white mt-6 rounded-xl">
-				<a
+{/* Learning Navigation Icon */}
+			<li class="ring-2 ring-black hover:ring-white hover:text-white mt-4 rounded-xl">
+					<a
 					href="https://metaverseot.xyz/learning"
 					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
+					focus:text-white">
 					<svg xmlns="http://www.w3.org/2000/svg" 
 					fill="none" 
 					viewBox="0 0 24 24" 
@@ -84,7 +80,7 @@ return (
 					0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 
 					8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
 					</svg>
-				</a>
+					</a>
 			</li>
 {/* Chart Navigation Icon */}
 			<li class="ring-2 ring-black hover:ring-white hover:text-white mt-4 rounded-xl">
@@ -108,15 +104,24 @@ return (
 				</a>
 			</li>
 		</ul>
-	</aside>
-	
-	<div class="items-center text-center mx-auto flex flex-col">
+</aside>
+{/* Navigation Title Text */}
+		<div class="mx-auto flex flex-col">
+			<section className='visible lg:invisible ml-4'>
+			<h1 className="mb-2 text-[3rem] font-bold font-extrabold text-transparent text-3xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300">
+			M<span className='bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300'>VoT</span>
+			</h1>
+			</section>
 
-		
-               
-
-        </div>
-</div>
-)};
+			<section className='invisible lg:visible'>
+			<h1 className="mb-2 text-[3rem] font-bold font-extrabold text-transparent text-3xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300">Metaverse <br></br>
+			<span className='bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300'>of Things</span>
+			</h1>
+			</section>
+		</div>
+</div>)};
 export default Navigation
+            
+   
+   
             
