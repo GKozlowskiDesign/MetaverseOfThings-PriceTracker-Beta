@@ -4,14 +4,25 @@ const CoinTrending = ({ coin }) => {
   return (
     
     <Link to={`/coin/${coin.id}`}>
-      <div className="font-light mb-2 mt-4 p-4 rounded-xl ring-2 ring-gray-900 border-black border-2 hover:bg-gray-900 bg-black">
-        <div className="flex items-center gap-1">
-          <span className="font-semibold text-white">{coin.score+1}.</span>
-          <img className="w-8" src={coin.small} alt={coin.name} />
-          <p className="text-white">{coin.name}</p>
-          <small className="text-xs text-white">({coin.symbol})</small>
+      
+      <div className="font-light  mt-4 rounded-xl p-4 ring-2 ring-gray-400 hover:bg-indigo-700 bg-black shadow-2xl">
+
+      
+          <div className="flex flex-row bg-gradient-to-b from-gray-900 to-transparent rounded-xl">
+
+          <div className="text-center justify-center"> 
+           <img className="w-full justify-center text-center mx-auto p-2" src={coin.small} alt={coin.name} />
+          </div>
+
+          <div>
+            <p className="text-center text-purple-600 uppercase text-xl mx-auto p-2 ">{coin.name}</p>
+           </div>
+
+         
+        
+          </div>
         </div>
-      </div>
+
     </Link>
   )
 }

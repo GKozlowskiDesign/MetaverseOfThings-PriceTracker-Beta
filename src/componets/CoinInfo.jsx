@@ -57,14 +57,14 @@ const CoinInfo = () => {
 
       <h3 className='text-xl text-white p-4'>Contract Address</h3>
          <li className=' p-4 rounded-xl  hover:text-white mx-auto
-           text-xs  text-gray-500 [&>a]:text-blue-600 [&>a]:underline'  dangerouslySetInnerHTML={{ __html: response.contract_address }} 
+           text-xs  text-gray-500 [&>a]:text-blue-600 [&>a]:underline  overflow-hidden'  dangerouslySetInnerHTML={{ __html: response.contract_address }} 
              onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}} >
                </li>
 
 
            <h3  className='text-lg text-white p-4'>Website Address</h3>  
               <li className='p-4 rounded-xl hover:text-white mx-auto
-                 text-xs  text-gray-500 [&>a]:text-blue-600 [&>a]:underline' dangerouslySetInnerHTML={{ __html: response.links.homepage }}>
+                 text-xs  text-gray-500 [&>a]:text-blue-600 [&>a]:underline  overflow-hidden' dangerouslySetInnerHTML={{ __html: response.links.homepage }}>
                    </li>
 
 
