@@ -1,5 +1,7 @@
+
+
 import { useParams } from "react-router-dom";
-import useAxios from "../Hooks/useAxios"
+import useAxios from "../hooks/useAxios"
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -34,7 +36,7 @@ const HistoryChart = () => {
   if(!response) {
     return (
       <div className="wrapper-container mx-auto pb-10">
-        <Skeleton className="h-72 w-full" />
+        <Skeleton className="h-100 w-full" />
       </div>
     )
   }
@@ -48,16 +50,18 @@ const HistoryChart = () => {
         fill: true,
         label: id,
         data: coinChartData.map(val => val.y),
-        borderColor: 'rgb(201, 40, 192)',
-        backgroundColor: 'transparent',
+        borderColor: '#674ccd        ',
+        backgroundColor: '#3e375c ',
       }
     ]
   }
 
   return (
-    <div className="pb-10 mx-auto">
-      <div className="bg-gray-900 rounded-xl mx-auto">
-        <Line className="mx-auto p-6 rounded-xl w-full" options={options} data={data} />
+    <div className="p-2 mx-auto w-full rounded-xl">
+      <div className="bg-gray-900 ring-2 ring-gray-600 rounded-xl shadow-xl mx-auto">
+      <h3 className='text-3xl text-white p-4 mx-auto pt-6 rounded-xl'>Price<span className="text-xs text-purple-500">  
+      <br></br>Coingecko API Real-Time</span></h3>
+        <Line className="mx-auto p-4 bg-black rounded-xl w-full ring-2 ring-gray-600" options={options} data={data} />
       </div>
     </div>
   )
