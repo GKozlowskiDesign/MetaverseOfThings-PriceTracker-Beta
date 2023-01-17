@@ -5,7 +5,7 @@ import Navigation from "../componets/Navigation"
 const CryptoHome = () => {
     return (
       <div className="p-2 bg-gradient-to-r from-black via-gray-900 to-indigo-900"> 
-        <Navbar/>
+        <Navigation/>
             <div className="wrapper-container p-4 Profile-center">
             <Trending />
             <Markets />
