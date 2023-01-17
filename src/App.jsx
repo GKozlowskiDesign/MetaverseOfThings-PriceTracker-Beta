@@ -14,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/" element={<CryptoHome />} />
       <Route path="/coin/:id" element={<CryptoDetail />} />
+          <Route path="/blog" element={<CryptoBlog />} />
     </Routes>
     <Footer/>
     </BrowserRouter>
