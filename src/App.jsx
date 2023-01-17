@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CryptoHome from './pages/CryptoHome';
+import CryptoBlog from './pages/CryptoBlog';
 import CryptoDetail from './pages/CryptoDetail';
 import Footer from './componets/Footer';
 import 'flowbite';
