@@ -2,8 +2,8 @@ import React from 'react'
 import 'flowbite';
 const Navigation = () => {
 return (
-<div class="w-full flex  bg-black items-center  jusitfy-center mx-auto">
-	<aside class="flex flex-col items-center  bg-black text-gray-700">
+<div class="w-full flex rounded-xl bg-black items-center  jusitfy-center mx-auto">
+	<aside class="flex flex-col gap-4  mb-10 items-center  bg-black text-gray-700">
 	
 {/* Navigation Top Icon */}
 		<div class="h-16 flex items-center w-full">
@@ -18,7 +18,6 @@ return (
 			
 {/* Home Navigation Icon */}
 	{/* Navigation Icon (Home)*/}
-	<p className='text-xs text-center invisible lg:hidden'>Home</p>
 	<button class="hover:bg-indigo-600 p-2 bg-gray-900 ring-2 ring-gray-600 text-gray-600 text-center justify-center rounded-lg mx-auto cursor-pointer">
 			<div class="text-center justify-center content-center mx-auto">
 			<a
@@ -42,7 +41,6 @@ return (
 			</button>
 {/* Dashboard Navigation Icon */}
 		{/* Navigation Icon (Trade)*/}
-	<p className='text-xs invisible lg:hidden'>Trade</p>
 			<button class="hover:bg-indigo-600 p-2 bg-gray-900 ring-2 ring-gray-600 text-gray-600 text-center justify-center rounded-lg mx-auto cursor-pointer">
 			<div class="text-center justify-center content-center mx-auto">
 			<a
@@ -64,7 +62,6 @@ return (
 			</button>
 {/* Learning Navigation Icon */}
 		{/* Navigation Icon (Learn)*/}
-			<p className='text-xs  invisible lg:hidden'>Learn</p>
 			<button class="hover:bg-indigo-600 p-2 bg-gray-900 ring-2 ring-gray-600 text-gray-600 text-center justify-center rounded-lg mx-auto cursor-pointer">
 			<div class="text-center justify-center content-center mx-auto">
 			<a
@@ -84,8 +81,7 @@ return (
 
 {/* Chart Navigation Icon */}
 	{/* Navigation Icon (Logout)*/}
-			<p className='text-xs invisible lg:hidden'>Logout</p>
-			<button class="hover:bg-indigo-600 p-2 bg-gray-900 ring-2 ring-gray-600 mr-6 text-gray-600 text-center justify-center rounded-lg mx-auto cursor-pointer">
+			<button class="hover:bg-indigo-600 p-2 bg-gray-900 ring-2 ring-gray-600 text-gray-600 text-center justify-center rounded-lg mx-auto cursor-pointer">
 			<div class="text-center justify-center content-center mx-auto">
 			<a
 			href="https://metaverseot.xyz/"
