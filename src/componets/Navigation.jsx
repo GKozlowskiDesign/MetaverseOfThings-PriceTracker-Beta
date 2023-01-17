@@ -15,7 +15,6 @@ return (
 			</a>
 		</div>
 {/* Navigation */}
-		<ul className="pl-4">
 			
 {/* Home Navigation Icon */}
 	{/* Navigation Icon (Home)*/}
