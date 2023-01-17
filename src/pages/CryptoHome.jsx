@@ -1,6 +1,6 @@
 import Markets from "../componets/Markets"
 import Trending from "../componets/Trending"
-import Navigation from "../componets/Navigation
+import Navigation from "../componets/Navigation"
 
 const CryptoHome = () => {
     return (
