@@ -19,7 +19,7 @@ const Trending = () => {
 
   return (
 
-    <section className="mt-8 p-8 bg-black rounded-xl ring-2 ring-gray-600">
+    <section className="p-8 bg-black rounded-xl ring-2 ring-gray-600">
     <div>
       <p className="text-purple-500 pb-10">Total 7 Recognized Tokens</p>
     </div>
