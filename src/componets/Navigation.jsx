@@ -56,7 +56,7 @@ return (
 	<button class="hover:bg-indigo-600 p-2  bg-purple-600  ring-2 ring-gray-600 text-indigo-200 text-center justify-center rounded-lg mx-auto cursor-pointer">
 			<div class="text-center justify-center content-center mx-auto">
 			<a
-			href="/"			
+			href="https://metaverseot.xyz/"			
 			class=" justify-center items-center w-full 
 			focus:text-white">
 			<svg xmlns="http://www.w3.org/2000/svg" 
