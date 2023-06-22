@@ -50,20 +50,7 @@ return (
 
 
 
-		{/* Navigation Icon (Learn)*/}
-		<button class="blur p-2  bg-gray-600  ring-2 ring-gray-600 text-indigo-200 text-center justify-center rounded-lg mx-auto cursor-default">
-			<div class="text-center justify-center content-center mx-auto">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" 
-				viewBox="0 0 24 24" stroke-width="1.5" 
-				stroke="currentColor" 
-				class="w-8 h-8">
-  				<path stroke-linecap="round" stroke-linejoin="round"
-				d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 
-				21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"></path>
-				</svg>
-			</div>
-			</button>
-
+	
 
 	{/* Navigation Icon (Logout)*/}
 	<button class="hover:bg-indigo-600 p-2  bg-purple-600  ring-2 ring-gray-600 text-indigo-200 text-center justify-center rounded-lg mx-auto cursor-pointer">
