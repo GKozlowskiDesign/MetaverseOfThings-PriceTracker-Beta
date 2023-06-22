@@ -2,7 +2,20 @@ import React from 'react'
 import 'flowbite';
 const Navigation = () => {
 return (
-<div class="w-full flex rounded-xl bg-black items-center  jusitfy-center mx-auto p-10 sm:p-10 lg:p-20">
+<div class="w-full flex rounded-xl bg-gradient-to-r from-black via-gray-900 to-black items-center  jusitfy-center mx-auto p-10 sm:p-10 lg:p-20">
+	
+         <div class="w-full h-full  max-w-screen-lg p-20 mx-auto flex flex-col justify-center gap-2 ">
+            <section className='py-16 flex items-center h-100 justify-center'>
+                <div className="mx-auto max-w-[27.5rem]">
+                <div className="text-center">
+                <h1 className="mt-20 mb-2 text-[4rem] font-bold leading-[4rem]font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300">Metaverse <br></br>
+                <span className='bg-clip-text bg-gradient-to-r from-purple-700 to-pink-300'>of Things</span></h1>
+                <h3 className="mb-2 text-[1rem] font-bold leading-8 text-white">Explore the Destination of Discovery!</h3>      
+                </div>
+                </div>
+            </section> 
+        </div>
+  
 	<aside class="flex flex-col gap-4 p-4  mb-10 items-center  bg-gray-900 ring-2 ring-gray-600 rounded-xl text-gray-700">
 
 {/* Navigation */}
@@ -125,4 +138,3 @@ export default Navigation
             
    
    
-            
