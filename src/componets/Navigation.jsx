@@ -2,7 +2,7 @@ import React from 'react'
 import 'flowbite';
 const Navigation = () => {
 return (
-<div class="w-full flex rounded-xl bg-gradient-to-r from-black via-gray-900 to-black items-center  jusitfy-center mx-auto p-10 sm:p-10 lg:p-20">
+<div class="w-full flex rounded-xl bg-gradient-to-r from-gray-900 via-gray-700 to-black items-center  jusitfy-center mx-auto p-10 sm:p-10 lg:p-20">
 	
          <div class="w-full h-full  max-w-screen-lg p-20 mx-auto flex flex-col justify-center gap-2 ">
             <section className='py-16 flex items-center h-100 justify-center'>
