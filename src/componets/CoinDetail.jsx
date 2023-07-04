@@ -21,25 +21,14 @@ const CoinDetail = () => {
   return (
 <div className='pt-10 mx-auto  w-full rounded-xl'>
   <div className='pt-6 p-2 mx-auto  w-full rounded-xl'>
-    <ul className='bg-gray-900 rounded-xl ring-2 ring-gray-600 shadow-xl '>  
+    <ul className='rounded-xl ring-2 ring-gray-600 shadow-xl '>  
         <div className='flex flex-row'>
-        
         </div>
-
-        <div className='flex flex-row bg-black rounded-xl'>
-
+        <div className='flex flex-row bg-transparent rounded-xl'>
         <img className="rounded-xl p-4" src={response.image.small} alt={response.name} />
         <h1 className='p-4 text-2xl text-white rounded-xl mt-3'>{response.name}</h1>
         <h1 className='p-4 text-base text-purple-500 mt-4 rounded-xl uppercase'>({response.symbol})</h1>
-
-
-
-
-
-
         </div>
-
-        
    </ul>     
   </div>    
 </div>

@@ -58,10 +58,10 @@ const HistoryChart = () => {
 
   return (
     <div className="p-2 mx-auto w-full rounded-xl">
-      <div className="bg-gray-900 ring-2 ring-gray-600 rounded-xl shadow-xl mx-auto">
+      <div className="shadow-xl mx-auto">
       <h3 className='text-3xl text-white p-4 mx-auto pt-6 rounded-xl'>Price<span className="text-xs text-purple-500">  
       <br></br>Coingecko API Real-Time</span></h3>
-        <Line className="mx-auto p-4 bg-black rounded-xl w-full ring-2 ring-gray-600" options={options} data={data} />
+        <Line className="mx-auto border-2 p-4 border-1 bg-black rounded-xl w-full" options={options} data={data} />
       </div>
     </div>
   )

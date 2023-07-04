@@ -23,7 +23,7 @@ const CoinInfo = () => {
   return (
     <div className='pt-2 mx-auto p-2 mb-20'>
 
- <div className='mx-auto bg-gray-900  rounded-xl shadow-xl ring-2 ring-gray-600'>
+ <div className='mx-auto'>
     <div class="font-light rounded-xl mx-auto rounded-xl">
         <h3 className='text-3xl text-white p-4 mx-auto pt-6'>
         Description  
@@ -34,7 +34,7 @@ const CoinInfo = () => {
         </h3>
 
 
-    <div className=' pb-4 p-4 mx-auto bg-black rounded-xl ring-2 ring-gray-600'>
+    <div className=' pb-4 p-4 mx-auto bg-black rounded-xl border-2'>
       <ul className='mx-auto'>
       <li className='mt-2 p-2 rounded-xl  text-center mx-auto
       text-base text-gray-500 [&>a]:text-blue-600 [&>a]:underline' dangerouslySetInnerHTML={{ __html: response.description.en }}>
@@ -45,13 +45,13 @@ const CoinInfo = () => {
    </div>
 
 
-      <div className='mx-auto bg-gray-900  rounded-xl shadow-xl ring-2 ring-gray-600 mt-8'>
+      <div className='mx-auto mt-8'>
     <div class="font-light rounded-xl mx-auto">
     <h3 className='text-3xl text-white p-4 pb-8 pt-10 mx-auto'>Project Information    <span className="text-xs text-purple-500">  
         <br></br>
         Coingecko API Real-Time
         </span></h3>
-    <div className=' pb-8 p-4 mx-auto bg-black rounded-xl ring-2 ring-gray-600'>
+    <div className=' pb-8 p-4 mx-auto bg-black rounded-xl border-2'>
       <ul className='mx-auto'>
 
 

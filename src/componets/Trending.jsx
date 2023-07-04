@@ -19,12 +19,12 @@ const Trending = () => {
 
   return (
 
-    <section className="p-8 bg-gray-900 rounded-xl ring-2 ring-gray-600">
+    <section className="mx-auto text-center rounded-xl ring-2 ring-gray-600">
     <div>
       <p className="text-purple-500 pb-10">Total 7 Recognized Tokens</p>
     </div>
     <h1 className="text-3xl mb-2 text-gray-600">Trending</h1>
-    {response && response.coins.map(coin => <CoinTrending key={coin.item.coin_id} coin={coin.item} />)}
+ 
   </section>
 
   

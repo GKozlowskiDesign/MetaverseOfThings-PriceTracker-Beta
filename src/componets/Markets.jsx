@@ -23,18 +23,12 @@ const Markets = () => {
   }
 
   return (
-  
-    
-    <div className="font-light  mt-4 rounded-xl p-4 ring-2 ring-gray-600 bg-gray-900 shadow-2xl">
-
-      
-    
-<div>
-  <p className="text-purple-500 pb-10">Total 100 Recognized Tokens</p>
-</div>
-<h1 className="text-3xl mb-2 text-gray-600">Tokens</h1>
-
-<div className="flex flex-row  bg-gray-900 rounded-xl">
+  <div className="font-light p-10 mt-4 rounded-xl mx-auto md:p-10 bg-gray-900 border-2 shadow-2xl">   
+    <div>
+      <p className="text-purple-500 pb-10">Total 100 Recognized Tokens</p>
+    </div>
+    <h1 className="text-3xl mb-2 text-gray-600">Tokens</h1>
+      <div className="flex flex-row  bg-gray-900 rounded-xl">
 
     <section className="rounded-xl">
 {response && response.map(coin => <Coin key={coin.id} coin={coin}/>)}
