@@ -39,6 +39,6 @@
   <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
   <h2>Acknowledgments</h2>
-  <p>The MetaTracker Application was developed as a personal project by [Your Name].</p>
+  <p>The MetaTracker Application was developed as a personal project by Gary Kozlowski.</p>
 </body>
 </html>
