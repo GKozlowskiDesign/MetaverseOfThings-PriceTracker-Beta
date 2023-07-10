@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CryptoDetail from './pages/CryptoDetail';
 import CryptoTokens from './pages/CryptoTokens';
-import Education from './pages/CryptoBlog';
+import CryptoBlog from './pages/CryptoBlog';
 import Footer from './componets/Footer';
-import Trending from './pages/Trending';
+import CryptoTrending from './pages/CryptoTrending';
 import 'flowbite';
 
 
@@ -18,8 +18,8 @@ function App() {
     
       <Route path="/coin/:id" element={<CryptoDetail />} />
       <Route path="/" element={<CryptoTokens />} />
-      <Route path="/education" element={<Education />} />
-      <Route path="/trending" element={<Trending />} />
+      <Route path="/education" element={<CryptoBlog />} />
+      <Route path="/trending" element={<CryptoTrending />} />
 
     </Routes>
     <Footer/>
