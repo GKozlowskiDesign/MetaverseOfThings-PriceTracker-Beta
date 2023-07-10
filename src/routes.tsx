@@ -1,6 +1,6 @@
 export const Routes = {
 home: "/",
-trending: "/Trending",
-education: "/Education",
+trending: "/trending",
+education: "/education",
 exit: "https://metaversetools.netlify.app/"
 };
