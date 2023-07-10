@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CryptoDetail from './pages/CryptoDetail';
 import CryptoTokens from './pages/CryptoTokens';
-import Education from './pages/CryptoBlog';
+import Education from './pages/Blog';
 import Footer from './componets/Footer';
-import Trending from './pages/CryptoTrending';
+import Trending from './pages/Trending';
 import 'flowbite';
 
 
