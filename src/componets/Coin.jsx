@@ -7,7 +7,7 @@ const Coin = ({ coin }) => {
     console.log(coin);
   return (
     <Link to={`/coin/${coin.id}`}>
-    <div className="grid sm:grid-cols-3  md:grid-cols-5 font-light mx-auto items-center pt-4 pb-4 mt-6 rounded-xl ring-2 ring-gray-900 hover:bg-indigo-600 bg-white">
+    <div className="grid sm:grid-cols-3  md:grid-cols-5 font-light mx-auto items-center pt-4 pb-4 mt-6 rounded-xl ring-2 ring-gray-900 hover:bg-indigo-600 bg-black">
       
         <img className="mt-2 w-6 md:w-10 mx-auto" src={coin.image} alt={coin.name}></img>
         <p className="text-white mx-auto p-4">{coin.name}</p>
