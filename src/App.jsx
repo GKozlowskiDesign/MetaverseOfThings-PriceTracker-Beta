@@ -18,8 +18,8 @@ function App() {
     
       <Route path="/coin/:id" element={<CryptoDetail />} />
       <Route path="/" element={<CryptoTokens />} />
-      <Route path="/Education" element={<Education />} />
-      <Route path="/Trending" element={<Trending />} />
+      <Route path="/education" element={<Education />} />
+      <Route path="/trending" element={<Trending />} />
 
     </Routes>
     <Footer/>
