@@ -1,6 +1,4 @@
 import Markets from "../componets/Markets"
-import Navigation from "../componets/Navigation"
-import Navbar from "../componets/Navbar"
 
 
 const CryptoTokens = () => {
