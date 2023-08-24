@@ -45,11 +45,7 @@
 <p>Coming Soon...</p>
 
 # Illustrations 
-## Full-Page Screenshot (Home Page)
-<img width="1371"  alt="Screen Shot 2023-07-11 at 10 18 36 AM" src="https://github.com/gkozlowskidesign/MetaTracker_Application/assets/82541715/9a8c13b0-1e0f-4cd0-a8e9-f0607c456f6d">
-
-## Full-Page Screenshot (Coin Info Page)
-<img width="1372" alt="Screen Shot 2023-07-11 at 10 18 20 AM" src="https://github.com/gkozlowskidesign/MetaTracker_Application/assets/82541715/fec010ce-cec2-4f7d-90b8-194624346c46">
+<p>Coming Soon...</p>
 
 # Contributing
 <p>Contributions to the MetaTracker Application are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.</p>
