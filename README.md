@@ -8,13 +8,22 @@
 <h1  align="left">General Info</h1>
 <p>The MetaTracker Application is the official web application for the MetaTracker cryptocurrency tracking application. It serves as a platform to use the features and capabilities of the MetaTracker application and provides valuable real-time analytics to users and potential users.</p>
 
+# Table of Contents
+<ul>
+  <li>Featured</li>
+  <li>Technologies</li>
+  <li>Illustrations</li>
+  <li>Contributions</li>
+  <li>License</li>
+  <li>Acknowledgments</li>
+</ul>
+
 # Featured
 <ul>
-<li><b>Introduction:</b> Coming Soon...</li>
-<li><b>Real-Time Data:</b>  Coming Soon...</li>
-<li><b>Charting Tools:</b>  Coming Soon...</li>
-<li><b>Analytical Tracking:</b>  Coming Soon...</li>
-<li><b>Educational Resources:</b>  Coming Soon...</li>
+<li>Coming Soon...</li>
+<li>Coming Soon...</li>
+<li>Coming Soon...</li>
+<li>Coming Soon...</li>
 </ul>
 
 # Technologies
@@ -30,22 +39,11 @@
 <li><p><b>Responsive Design:</b>  Ensuring the website is responsive and accessible across various devices and screen sizes, providing an optimal user experience.</p></li>
 </ul>
 
-# Workflow
-<ul>
-<h3>Inspiration</h3>
-<h3>Notepad</h3>
-<h3>Figma Design</h3>
-<h3>Project Setup</h3>
-<h3>Structure & Layout</h3>
-<h3>GitHub Repository</h3>
-<h3>Deployment</h3>
-</ul>
-
-# UI Components
-<p>Coming Soon...</p>
 
 # Illustrations 
-<p>Coming Soon...</p>
+![Screen Shot 2023-09-01 at 5 01 58 PM](https://github.com/GKozlowskiDesign/Project_MetaverseOfThingsBeta/assets/82541715/d30e88f8-42b1-4c22-b67c-a30eec477e79)
+
+![screencapture-metaversetracker-netlify-app-coin-bitcoin-2023-09-01-16_59_34](https://github.com/GKozlowskiDesign/Project_MetaverseOfThingsBeta/assets/82541715/4cf7cbfc-6a31-487e-924c-b0f1e066a837)
 
 # Contributing
 <p>Contributions to the MetaTracker Application are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.</p>
