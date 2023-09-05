@@ -19,12 +19,12 @@
 </ul>
 
 # Featured
-<ul>
-<li>Coming Soon...</li>
-<li>Coming Soon...</li>
-<li>Coming Soon...</li>
-<li>Coming Soon...</li>
-</ul>
+<ol>
+<li>I learned how to use ViteJS</li>
+<li>I learned how to create use Coingecko Real-Time API</li>
+<li>I got better at designing with Tailwindcss</li>
+<li>I got better at using React Router for Multi-Page Applications</li>
+</ol>
 
 # Technologies
 <ul>
@@ -40,7 +40,7 @@
 </ul>
 
 
-# Illustrations 
+# Design and Development
 ![Screen Shot 2023-09-01 at 5 01 58 PM](https://github.com/GKozlowskiDesign/Project_MetaverseOfThingsBeta/assets/82541715/d30e88f8-42b1-4c22-b67c-a30eec477e79)
 
 ![screencapture-metaversetracker-netlify-app-coin-bitcoin-2023-09-01-16_59_34](https://github.com/GKozlowskiDesign/Project_MetaverseOfThingsBeta/assets/82541715/4cf7cbfc-6a31-487e-924c-b0f1e066a837)
