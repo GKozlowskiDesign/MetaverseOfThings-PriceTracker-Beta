@@ -1,10 +1,3 @@
-<h1  align="center">Metaverse Of Things (MVoT)</h1>
-<h4  align="center">Beta Application</h4>
-
-<p align="center">
-<img src="https://github.com/gkozlowskidesign/Project_FinTechWebsite_Vitejs/assets/82541715/dd4d3566-3b9d-4beb-8442-2027ed436268" height="auto" width="300">
-</p>
-
 <h1  align="left">General Info</h1>
 <p>The MetaTracker Application is the official web application for the MetaTracker cryptocurrency tracking application. It serves as a platform to use the features and capabilities of the MetaTracker application and provides valuable real-time analytics to users and potential users.</p>
 
