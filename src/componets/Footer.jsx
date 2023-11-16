@@ -1,7 +1,7 @@
 import React from 'react'
 const Footer = () => {
 return (
-<div className='w-full px-10 h-100 bg-gradient-to-r from-black via-gray-900 to-indigo-900'> 
+<div className='w-full px-10 h-100 bg-black'> 
  <section className='p-10 w-full container mx-auto flex flex-col justify-center gap-10'>
    <footer class="relative py-20 flex flex-col items-center overflow-hidden md:py-40">
     <div class="relative z-[1] container m-auto px-6 md:px-12">
@@ -25,16 +25,6 @@ return (
                         <span>Twitter</span>
                     </a>
                 </li>
-
-                <li>
-                    <a href="https://metaverseofthings.medium.com/" class="flex items-center space-x-3 hover:text-indigo-400 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7" viewBox="0 0 16 16">
-                            <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
-                        </svg>
-                        <span>Medium</span>
-                    </a>
-                </li>
-
                 <li>
                     <a href="https://www.instagram.com/metaverseofthings/" class="flex items-center space-x-3 hover:text-indigo-400 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7" viewBox="0 0 16 16">
@@ -46,7 +36,7 @@ return (
             </ul>
         </div>
         <div class="w-10/12 m-auto  mt-16 space-y-6 text-center sm:text-left sm:w-5/12 sm:mt-auto">
-          <span class="block text-gray-300">MVoT &copy; 2022</span>
+          <span class="block text-gray-300">MVoT &copy; 2023</span>
           <span class="flex justify-between text-white"></span>
         </div>
       </div>

@@ -1,15 +1,14 @@
 import Markets from "../componets/Markets"
+import Navigation from "../componets/Navbar"
 
 
 const CryptoTokens = () => {
     return (
-        <div className=" bg-gradient-to-r from-black via-indigo-900 to-pink-900 p-10">
-            
-        <div className="wrapper-container p-12 mx-auto">
-            <Markets/>
-           
-    
-        </div>
+        <div className=" bg-gradient-to-r from-black to-gray-900 p-2">
+            <Navigation />
+            <div className="wrapper-container p-2 mx-auto">
+                <Markets/>
+            </div>
         </div>
         
     )
